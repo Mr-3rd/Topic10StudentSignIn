@@ -1,6 +1,5 @@
 <template>
 
-<!--  Comment to help fix wtf is wrong with my github-->
   <tr v-bind:class="{present: student.present, absent: !student.present}">
     <td>{{student.name}}</td>
     <td>{{student.starID}}</td>
