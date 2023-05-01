@@ -55,8 +55,7 @@ export default {
       }
     },
     studentDeleted(student) {
-
-      //This seems to be where my code will not delete the rom
+      // updated to reflect changes
       this.students = this.students.filter( function(s) {
         if (s !== student) {
           return true
